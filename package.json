@@ -1,0 +1,30 @@
+{
+  "name": "raci-node",
+  "version": "1.0.0",
+  "description": "RACI app built with Node.js, Postgresql, Express, Sequlize, React",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config index.js",
+    "db:create": "sequelize-cli db:create"
+ },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequalize",
+    "react",
+    "postgres",
+    "postgresql",
+    "rest",
+    "api"
+  ],
+  "author": "vallyre",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.1"
+  }
+}
